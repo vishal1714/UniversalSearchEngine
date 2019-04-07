@@ -1,0 +1,233 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+#blank-search-top {
+    padding-top: 20%;
+}
+
+#landing-search {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#pagination {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 1em;
+}
+
+#pagination a {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#main-logo {
+    height: 24px;
+    width: auto;
+}
+
+#category-tabs {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tabs {
+    background-color: transparent !important;
+}
+
+.tabs .tab a {
+    color: #757575 !important;
+    cursor: default;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #23a086 !important;
+}
+
+.indicator {
+    background-color: #23a086 !important;
+}
+
+.imageResult {
+    width: 50%;
+}
+
+.videoResult {
+    clear: both;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+#search-containter {
+    height: 47px;
+    width: 80%;
+    max-width: 540px;
+    display: inline-block;
+    margin-top: 15px;
+
+    border: 1px solid #cccccc;
+    border-right: 0;
+    -webkit-border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#search-text {
+    display: block;
+    float: left;
+    width: calc(100% - 80px);
+    height: 47px;
+    margin: 0;
+
+    border-bottom: 0;
+    box-shadow: 0 0 0 0;
+    font-size: 16px;
+
+    padding-left: 17px;
+    padding-right: 17px;
+    -webkit-appearance: none;
+}
+
+#search-button {
+    display: block;
+    float: right;
+
+    width: 43px;
+    height: 47px;
+    margin-top: -1px;
+    background-color: #26a083;
+
+    border: 1px solid #26a083;
+    border-left: 0;
+    border-bottom: 0;
+    -webkit-border-radius: 0px 2px 2px 0px;
+
+    background-image : url(../images/magnify.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+    -webkit-appearance: none;
+}
+
+#allSearchResults {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: #b3b3b3;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    font-size: 12px;
+    color: #b3b3b3;
+    margin: 0 1em;
+}
+
+#footer-logo {
+    height: 24px;
+    width: 24px;
+}
+
+#popular-searches {
+    margin-top: 45px;
+    width: 80%;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#popular-searches-title {
+    height: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+    text-align: center;
+}
+
+#search-term-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.popular-search-term {
+    display: inline-block;
+    width: auto;
+    font-size: 12px;
+    line-height: 1.42;
+    color: #26a083;
+    border-radius: 2px;
+    border: solid 1px #26a083;
+    background-color: transparent;
+    margin: 4.5px 2.5px 4.5px 2.5px;
+    padding: 7px 16px 7px 16px;
+}
+
+.search-result-title{
+    height: 16px;
+    font-weight: 500;
+    color: #808080;
+    margin-top: 10px;
+}
+
+.ad-section-title{
+  height: 18px;
+  font-weight: 500;
+  color: #808080;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: inline;
+}
+
+@media (min-width: 600px) {
+    #main-logo {
+        height: 33px;
+        width: auto;
+    }
+    #allSearchResults {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .imageResult {
+        width: 33%;
+    }
+
+    #search-text {
+        font-size: 19px;
+    }
+
+    #search-containter {
+        margin-top: 25px;
+    }
+
+    #blank-search-top {
+        padding-top: 10%;
+    }
+
+    /* https://codepen.io/cbracco/pen/zekgx */
+    footer {
+        margin-bottom: 32px;
+    }
+}
